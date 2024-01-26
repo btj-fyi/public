@@ -1,5 +1,0 @@
-What are the SQL datatypes?
-https://www.w3schools.com/sql/sql_datatypes.asp
-
-What datatype should password hashes be stored as in a database?
-https://stackoverflow.com/questions/14722305/what-kind-of-datatype-should-one-use-to-store-hashes
