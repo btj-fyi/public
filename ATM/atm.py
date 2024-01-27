@@ -7,6 +7,8 @@ import time
 import hashlib
 from getpass import getpass
 
+# TODO paramaterize SQL queries
+
 
 class ATM:
     def __init__(self):
