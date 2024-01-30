@@ -8,8 +8,8 @@ An Anagram is a word or phrase formed by rearranging the letters of a different 
 # add them all up, then check for equality
 # but this is going to mean you have to loop over both strings to convert them
 # maybe a hash? I would need Google for that + a lib so I will try that after for now I will do it my way
-s: str = "rat"
-t: str = "car"
+s: str = "anagram"
+t: str = "nagaram"
 
 
 def validAnagram(s, t) -> True:
@@ -28,4 +28,6 @@ def validAnagram(s, t) -> True:
         return False
 
 
-print(validAnagram(s, t))
+# print(validAnagram(s, t))
+
+print(hash(s) == hash(t))
