@@ -19,9 +19,9 @@ def validAnagram(s, t) -> True:
     t_ = 0
     for idx, letter in enumerate(st):
         if idx < len(s):
-            s_ += int(letter)
+            s_ += int(ord(letter))
         else:
-            t_ += int(letter)
+            t_ += int(ord(letter))
     if s_ == t_:
         return True
     else:
