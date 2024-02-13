@@ -65,8 +65,24 @@ def ProductOfArrayExceptSelf(nums: list[int]) -> list:
 
 print(ProductOfArrayExceptSelf(nums))
 
-# loop
-# skip the first element; i = 0
-# loop len(list) - 1 more times, calculating the new product each time
-# assign the product to answer[i]
-# increaes i by 1
+# SOLUTION
+# find prefix and suffix
+# I don't really understand how the two loops are excluding the numbers at each index
+
+
+def Solution(nums: list[int]) -> list[int]:
+    n = len(nums)
+    pre = 1
+    suf = 1
+    result = [0] * n
+    for i in range(n):
+        result[i] = pre
+        pre *= nums[i]
+
+    for i in range(n - 1, -1, -1):
+        result[i] *= suf
+        suf *= nums[i]
+    return result
+
+
+print(Solution(nums))
