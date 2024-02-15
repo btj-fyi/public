@@ -56,3 +56,10 @@ If we use a simple framework such a Flask, adding a web interface a top our API 
 I think I moved too quickly into the particulars of the implementation of the storage components. It would have been beneficial to think more generally about the desired APIs before examining the storage components so closely. 
 
 I also forgot to describe the implementation of the anti-abuse features although I did include the possibility of malicious use of the system. 
+
+# References
+- [Redis Queue](https://redis.com/glossary/redis-queue/)
+- [Using your Database as a Queue?](https://codeopinion.com/using-your-database-as-a-queue/)
+- [Implementing State Machines in PostgreSQL](https://felixge.de/2017/07/27/implementing-state-machines-in-postgresql/)
+- [Modeling States and Transitions In Relation Databases](http://v1.monkey-robot.com/2014/05/modeling-states-and-transitions-in-relational-databases)
+- [Flask](https://flask.palletsprojects.com/en/3.0.x/) 
