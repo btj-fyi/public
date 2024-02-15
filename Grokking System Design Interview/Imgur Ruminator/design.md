@@ -59,6 +59,8 @@ I also forgot to describe the implementation of the anti-abuse features although
 
 I did not give any considerations to load balancing, high-availability, redundancy, disaster recovery. 
 
+What if our requests are silently failing? The images will be removed because we are not loading them. How do we fix this?
+
 # References
 - [Redis Queue](https://redis.com/glossary/redis-queue/)
 - [Using your Database as a Queue?](https://codeopinion.com/using-your-database-as-a-queue/)
