@@ -57,6 +57,8 @@ I think I moved too quickly into the particulars of the implementation of the st
 
 I also forgot to describe the implementation of the anti-abuse features although I did include the possibility of malicious use of the system. 
 
+I did not give any considerations to load balancing, high-availability, redundancy, disaster recovery. 
+
 # References
 - [Redis Queue](https://redis.com/glossary/redis-queue/)
 - [Using your Database as a Queue?](https://codeopinion.com/using-your-database-as-a-queue/)
